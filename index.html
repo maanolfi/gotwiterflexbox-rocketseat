@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Document</title>
+</head>
+<body>
+  <header id="main-header">
+    <div class="content">
+    <nav>
+      <ul>
+        <li><img src='images/home.svg' alt='Home'>Home</li>
+        <li><img src='images/notification.svg' alt='Notifications'>Notifications</li>
+        <li><img src='images/message.svg' alt='Messages'>Messages</li>
+      </ul>
+    </nav>
+    <img src="/images/logo.svg" alt="Logo Twitter Flex">
+
+    <div class="side">
+      <input type='text' placeholder="Search on Twitter">
+      <img src="./images/avatar.png" alt="">
+      <button>Tweet</button>
+    </div>
+  </div>
+  </header>
+
+  <div class="banner">
+
+    <h1>Twitter da Rocketseat</h1>
+    <h2>Aprendendo Flexbox de uma maneira prática</h2>
+  </div>
+  
+  <div class="bar">
+      <div class="content">
+        <ul>
+          <li class="active">
+            <span>Teets</span>
+            <strong>360</strong>
+          </li>
+          <li>
+              <span>Followings</span>
+              <strong>925</strong>
+            </li>
+            <li>
+                <span>Followers</span>
+                <strong>489</strong>
+              </li>
+
+              <li>
+                  <span>Favorites</span>
+                  <strong>863</strong>
+                </li>
+        </ul>
+
+        <div class="actions">
+          <button>Follow</button>
+          <img src="/images/more.svg" alt="More" >
+        </div>
+      </div>
+  </div>
+
+  <div class="wrapper-content content">
+    <aside class="profile">
+      <img class="avatar" src="/images/avatar.png" alt='Marco Antonio'>
+      <h1>Marco Antonio</h1>
+      <span>@Exibir</span>
+      <p>Descrição do fulano Marco Antonio</p>
+
+      <ul class="list">
+        <li><img src="/images/place.svg" alt="Place">São Paulo</li>
+        <li><img src="/images/url.svg" alt="Url">goog.com</li>
+        <li><img src="/images/joined.svg" alt="Joined">Joined june 2009</li>
+        <li><img src="/images/born.svg" alt="Born">Born the 20th</li>
+      </ul>
+
+      <div class="widget followers">
+        <strong>
+          <img src="/images/followers.svg" alt='Followers'>
+          1024 followers that you know          
+        </strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          
+        </ul>
+      </div>
+
+      <div class="widget images">
+        <strong>
+          <img src="/images/images.svg" alt='Images'>
+          266 photos
+        </strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <section class="timeline">
+      <nav>
+        <a href="#" class="active">Tweets</a>
+        <a href="#">Tweets and replies</a>
+        <a href="#">Medias</a>
+      </nav>
+
+      <ul class="tweets">
+        <li>
+          
+          <img src="/images/avatar.png" alt="Avatar">
+          
+          <div class="info">
+            <strong>Marco Antonio <span>@maanolfi</span></strong>
+            <p>Ao trabalhar com o flexbox, você precisa pensar em termos de dois eixos — o eixo principal e o eixo transversal.</p>
+            <div class="actions">
+              <a href="#">
+                <img src="/images/comments.svg" alt="Comments"> 3</a>
+              </a>
+              <a href="#">
+                <img src="/images/retweet.svg" alt="Retweet"> 9</a>
+              </a>               
+              <a href="#">
+                <img src="/images/like.svg" alt="Likes"> 30</a>
+              </a>
+                     
+            </div>
+          </div>
+
+          
+        </li>
+        <li>
+          
+          <img src="/images/avatar.png" alt="Avatar">
+          
+          <div class="info">
+            <strong>Marco Antonio <span>@maanolfi</span></strong>
+            <p>Se você escolher row ou row-reverse, seu eixo se moverá junto com a linha na direção inline.</p>
+            <div class="actions">
+              <a href="#">
+              <img src="/images/comments.svg" alt="Comments"> 3</a>
+              <a href="#">
+                  <img src="/images/retweet.svg" alt="Retweet"> 9</a>
+                  <a href="#">
+                      <img src="/images/like.svg" alt="Likes"> 30</a>
+            </div>
+          </div>
+
+          
+        </li>
+        <li>
+          
+          <img src="/images/avatar.png" alt="Avatar">
+          
+          <div class="info">
+            <strong>Marco Antonio <span>@maanolfi</span></strong>
+            <p>Escolha column ou column-reverse e seu eixo principal se moverá do topo da página para baixo — na direção block.</p>
+            <div class="actions">
+              <a href="#">
+              <img src="/images/comments.svg" alt="Comments"> 3</a>
+              <a href="#">
+                  <img src="/images/retweet.svg" alt="Retweet"> 9</a>
+                  <a href="#">
+                      <img src="/images/like.svg" alt="Likes"> 30</a>
+            </div>
+          </div>
+
+          
+        </li>
+        <li>
+          
+          <img src="/images/avatar.png" alt="Avatar">
+          
+          <div class="info">
+            <strong>Marco Antonio <span>@maanolfi</span></strong>
+            <p>Se o seu eixo principal for column ou column-reverse, então o eixo transversal se moverá na direção das linhas.</p>
+            <div class="actions">
+              <a href="#">
+              <img src="/images/comments.svg" alt="Comments"> 3</a>
+              <a href="#">
+                  <img src="/images/retweet.svg" alt="Retweet"> 9</a>
+                  <a href="#">
+                      <img src="/images/like.svg" alt="Likes"> 30</a>
+            </div>
+          </div>
+
+          
+        </li>
+        <li>
+          
+          <img src="/images/avatar.png" alt="Avatar">
+          
+          <div class="info">
+            <strong>Marco Antonio <span>@maanolfi</span></strong>
+            <p>Entender qual eixo é o que é importante quando começamos a ler sobre alinhar ou justificar itens flexíveis (flex items)</p>
+            <div class="actions">
+              <a href="#">
+              <img src="/images/comments.svg" alt="Comments"> 3</a>
+              <a href="#">
+                  <img src="/images/retweet.svg" alt="Retweet"> 9</a>
+                  <a href="#">
+                      <img src="/images/like.svg" alt="Likes"> 30</a>
+            </div>
+          </div>
+
+          
+        </li>
+      </ul>
+    </section>
+
+    <aside class="widgets">
+      <div class="widget follow">
+        <div class="title">
+          <strong>Whot to followers</strong>
+          <a href='#'>Refresh</a>
+          <a href="#">View all</a>
+        </div>
+
+        <ul>
+          <li>
+            <div class="profile">
+                <img src="/images/avatar.png" alt="Avatar" srcset="">
+                <div class="info">
+                  <strong>Spade <span>@user</span></strong>
+                  <button>Follow</button>
+                </div>
+            </div>
+            <a href="#">x</a>
+
+          </li>
+          <li>
+              <div class="profile">
+                  <img src="/images/avatar.png" alt="Avatar" srcset="">
+                  <div class="info">
+                    <strong>Spade <span>@user</span></strong>
+                    <button>Follow</button>
+                  </div>
+              </div>
+              <a href="#">x</a>
+  
+            </li>
+            <li>
+                <div class="profile">
+                    <img src="/images/avatar.png" alt="Avatar" srcset="">
+                    <div class="info">
+                      <strong>Spade <span>@user</span></strong>
+                      <button>Follow</button>
+                    </div>
+                </div>
+                <a href="#">x</a>
+    
+              </li>
+        </ul>
+      </div>
+
+    </aside>
+  </div>
+  
+</body>
+</html>
